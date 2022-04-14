@@ -27,6 +27,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                        <testFailureIgnore>true</testFailureIgnore>
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar -Xmx256m
